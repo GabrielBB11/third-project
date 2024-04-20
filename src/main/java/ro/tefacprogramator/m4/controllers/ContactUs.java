@@ -9,4 +9,8 @@ public class ContactUs {
   public String form(){
     return "First name, last name...";
   }
+
+  public String validate(){
+    return "Validating the form";
+  }
 }
