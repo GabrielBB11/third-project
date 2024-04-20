@@ -19,5 +19,8 @@ public class Application {
 
         double rezMultiply = Calculator.multiply(56, 7);
         System.out.println("rez multiply= " + rezMultiply);
+
+        int rezDouble = Calculator.doubleNumber(10);
+        System.out.println("rez double= " + rezDouble);
     }
 }
