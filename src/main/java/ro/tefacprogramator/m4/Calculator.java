@@ -1,6 +1,11 @@
 package ro.tefacprogramator.m4;
 
 public class Calculator {
+
+  public static double pow(double a, double b){
+    return Math.pow(a, b);
+  }
+
   public static int add(int a, int b){
     return a + b;
   }
