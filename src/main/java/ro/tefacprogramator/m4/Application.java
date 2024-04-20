@@ -10,5 +10,8 @@ public class Application {
 
         int rezSubstract = Calculator.substract(100, 45);
         System.out.println("rez = " + rezSubstract);
+
+        double rezDivide = Calculator.divide(100, 45);
+        System.out.println("rez = " + rezDivide);
     }
 }
