@@ -6,11 +6,9 @@ public class Application {
         System.out.println("New program");
 
         int rezAdd = Calculator.add(100, 45);
-        
         System.out.println("rez = " + rezAdd);
 
-        int rezSubstract = Calculator.add(100, 45);
-        
+        int rezSubstract = Calculator.substract(100, 45);
         System.out.println("rez = " + rezSubstract);
     }
 }
