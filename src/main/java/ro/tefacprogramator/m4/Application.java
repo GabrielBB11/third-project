@@ -9,12 +9,15 @@ public class Application {
         System.out.println("rez pow = " + rezPow);
 
         int rezAdd = Calculator.add(100, 45);
-        System.out.println("rez = " + rezAdd);
+        System.out.println("rez add= " + rezAdd);
 
         int rezSubstract = Calculator.substract(100, 45);
-        System.out.println("rez = " + rezSubstract);
+        System.out.println("rez substract= " + rezSubstract);
 
         double rezDivide = Calculator.divide(100, 45);
-        System.out.println("rez = " + rezDivide);
+        System.out.println("rez divide= " + rezDivide);
+
+        int rezMultiply = Calculator.multiply(100, 45);
+        System.out.println("rez multiply= " + rezMultiply);
     }
 }
